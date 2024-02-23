@@ -24,9 +24,15 @@ If actionlint does not detect any issues with the workflow configuration file, t
 `./script.py --help` prints script usage\
 `./script.py --clear` deletes all folders and output files in the results directory
 
+### **Other Features**
+`./read_csv.py [csv file name]` reads and downloads repositories from a csv file\
+`./read_csv.py --help` prints script usage
+
 ### **Work in Progress**
 - Summarize actionlint results in a json 
-- Read and clone repositories from a csv file 
 - Fix issues with multiple arguments 
 
-Note: This script works with any command (including git commands). 
+### **Additional Notes**
+- `script.py` will run any command on every repository in its directory (i.e. `./script.py "git ls-remote --heads"`).
+- `actionlint` is not compatible with workflows that do not use GitHub Actions (error: no project was found in any parent directories of ".").
+- `read_csv.py` is only compatible with the csv format shown in `sample.csv`, modify the script based on the csv format that is being used 

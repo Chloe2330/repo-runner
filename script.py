@@ -55,6 +55,7 @@ def run(command, repo):
     temp_file_path = os.path.join(os.getcwd(), "temp.txt")
 
     with open(temp_file_path, 'w') as file:
+        # Run command on repository 
         output = subprocess.run(command, shell=True, stdout=file)
         move_files(temp_file_path, repo, command)
         
