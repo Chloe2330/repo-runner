@@ -2,16 +2,20 @@
 ## Run actionlint on every repository in the script's directory. 
 
 ### **Quick Start**
-Clone this repository. \
-`git clone https://github.com/Chloe2330/repo-runner.git` 
+Clone this repository. 
+```bash
+git clone https://github.com/Chloe2330/repo-runner.git
+``` 
 
 Install `actionlint` [here](https://github.com/rhysd/actionlint) in the same directory. 
 
 Clone the repositories to run actionlint on.
 
-The following reposities were used to produce the output files in the sample results folder: \
-`git clone https://github.com/YetiForceCompany/YetiForceCRM.git`\
-`git clone https://github.com/vmware/govmomi.git`
+The following reposities were used to produce the output files in the sample results folder: 
+```bash
+git clone https://github.com/YetiForceCompany/YetiForceCRM.git
+git clone https://github.com/vmware/govmomi.git
+```
 
 If actionlint does not detect any issues with the workflow configuration file, the ouput text file will be empty.
 
@@ -21,7 +25,7 @@ If actionlint does not detect any issues with the workflow configuration file, t
 `./script.py --clear` deletes all folders and output files in the results directory
 
 ### **Work in Progress**
-- Summarize actionlint results in a json
+- Summarize actionlint results in a json 
 - Read and clone repositories from a csv file 
 - Fix issues with multiple arguments 
 
