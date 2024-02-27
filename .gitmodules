@@ -1,0 +1,3 @@
+[submodule "actionlint"]
+	path = actionlint
+	url = https://github.com/Ranasinghe843/actionlint.git
