@@ -1,0 +1,171 @@
+[
+  {
+    "name": [
+      "abrt"
+    ]
+  },
+  {
+    "name": [
+      "argo-cd"
+    ],
+    "errors": [
+      {
+        "file": ".github/workflows/image-reuse.yaml",
+        "line": 20,
+        "column": 18,
+        "message": "input \"platforms\" of workflow_call event has the default value \"linux/amd64\", but it is also required. if an input is marked as required, its default value will never be used",
+        "type": "events",
+        "code": "20 |         default: linux/amd64"
+      },
+      {
+        "file": ".github/workflows/image-reuse.yaml",
+        "line": 24,
+        "column": 18,
+        "message": "input \"push\" of workflow_call event has the default value \"false\", but it is also required. if an input is marked as required, its default value will never be used",
+        "type": "events",
+        "code": "24 |         default: false"
+      }
+    ]
+  },
+  {
+    "name": [
+      "govmomi"
+    ],
+    "errors": [
+      {
+        "file": ".github/workflows/govmomi-release.yaml",
+        "line": 96,
+        "column": 14,
+        "message": "workflow command \"set-output\" was deprecated. use `echo \"{name}={value}\" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions",
+        "type": "deprecated-commands",
+        "code": "96 |         run: |"
+      },
+      {
+        "file": ".github/workflows/govmomi-release.yaml",
+        "line": 96,
+        "column": 14,
+        "message": "workflow command \"set-output\" was deprecated. use `echo \"{name}={value}\" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions",
+        "type": "deprecated-commands",
+        "code": "96 |         run: |"
+      }
+    ]
+  },
+  {
+    "name": [
+      "openexr"
+    ],
+    "errors": [
+      {
+        "file": ".github/workflows/bazel_build.yml",
+        "line": 29,
+        "column": 5,
+        "message": "\"tags-ignore\" filter is not available for pull_request event. it is only for push event",
+        "type": "events",
+        "code": "29 |     tags-ignore:"
+      },
+      {
+        "file": ".github/workflows/bazel_build.yml",
+        "line": 108,
+        "column": 14,
+        "message": "label \"macos-14\" is unknown. available labels are \"windows-latest\", \"windows-2022\", \"windows-2019\", \"windows-2016\", \"ubuntu-latest\", \"ubuntu-22.04\", \"ubuntu-20.04\", \"ubuntu-18.04\", \"macos-latest\", \"macos-latest-xl\", \"macos-latest-xlarge\", \"macos-latest-large\", \"macos-13-xl\", \"macos-13-xlarge\", \"macos-13-large\", \"macos-13\", \"macos-13.0\", \"macos-12-xl\", \"macos-12-xlarge\", \"macos-12-large\", \"macos-12\", \"macos-12.0\", \"macos-11\", \"macos-11.0\", \"macos-10.15\", \"self-hosted\", \"x64\", \"arm\", \"arm64\", \"linux\", \"macos\", \"windows\". if it is a custom label for self-hosted runner, set list of labels in actionlint.yaml config file",
+        "type": "runner-label",
+        "code": "108 |     runs-on: macos-14"
+      },
+      {
+        "file": ".github/workflows/ci_workflow.yml",
+        "line": 32,
+        "column": 5,
+        "message": "\"tags-ignore\" filter is not available for pull_request event. it is only for push event",
+        "type": "events",
+        "code": "32 |     tags-ignore:"
+      },
+      {
+        "file": ".github/workflows/ci_workflow.yml",
+        "line": 242,
+        "column": 213,
+        "message": "property \"cxx-flags\" is not defined in object type {build: number; build-shared: string; build-type: string; cc-compiler: string; compiler-desc: string; cxx-compiler: string; cxx-standard: number; exclude-tests: string; label: string; threads-enabled: string; vfx-cy: number}",
+        "type": "expression",
+        "code": ""
+      },
+      {
+        "file": ".github/workflows/ci_workflow.yml",
+        "line": 263,
+        "column": 355,
+        "message": "property \"cxx-flags\" is not defined in object type {build: number; build-shared: string; build-type: string; cc-compiler: string; compiler-desc: string; cxx-compiler: string; cxx-standard: number; exclude-tests: string; label: string; threads-enabled: string; vfx-cy: number}",
+        "type": "expression",
+        "code": ""
+      },
+      {
+        "file": ".github/workflows/ci_workflow.yml",
+        "line": 374,
+        "column": 204,
+        "message": "property \"cxx-flags\" is not defined in object type {build: number; build-shared: string; build-type: string; compiler-desc: string; cxx-standard: number; exclude-tests: string; osver: number; threads-enabled: string; vfx-cy: number}",
+        "type": "expression",
+        "code": ""
+      },
+      {
+        "file": ".github/workflows/ci_workflow.yml",
+        "line": 393,
+        "column": 355,
+        "message": "property \"cxx-flags\" is not defined in object type {build: number; build-shared: string; build-type: string; compiler-desc: string; cxx-standard: number; exclude-tests: string; osver: number; threads-enabled: string; vfx-cy: number}",
+        "type": "expression",
+        "code": ""
+      },
+      {
+        "file": ".github/workflows/ci_workflow.yml",
+        "line": 509,
+        "column": 204,
+        "message": "property \"cxx-flags\" is not defined in object type {build: number; build-shared: string; build-type: string; compiler-desc: string; cxx-standard: number; exclude-tests: string; osver: number; threads-enabled: string; vfx-cy: number}",
+        "type": "expression",
+        "code": ""
+      },
+      {
+        "file": ".github/workflows/ossfuzz_workflow.yml",
+        "line": 25,
+        "column": 5,
+        "message": "\"tags-ignore\" filter is not available for pull_request event. it is only for push event",
+        "type": "events",
+        "code": "25 |     tags-ignore:"
+      },
+      {
+        "file": ".github/workflows/website_workflow.yml",
+        "line": 14,
+        "column": 5,
+        "message": "unexpected key \"branches:-ignore\" for \"push\" section. expected one of \"branches\", \"branches-ignore\", \"paths\", \"paths-ignore\", \"tags\", \"tags-ignore\", \"types\", \"workflows\"",
+        "type": "syntax-check",
+        "code": "14 |     branches:-ignore:"
+      },
+      {
+        "file": ".github/workflows/website_workflow.yml",
+        "line": 23,
+        "column": 5,
+        "message": "unexpected key \"branches:-ignore\" for \"pull_request\" section. expected one of \"branches\", \"branches-ignore\", \"paths\", \"paths-ignore\", \"tags\", \"tags-ignore\", \"types\", \"workflows\"",
+        "type": "syntax-check",
+        "code": "23 |     branches:-ignore:"
+      },
+      {
+        "file": ".github/workflows/website_workflow.yml",
+        "line": 26,
+        "column": 5,
+        "message": "\"tags-ignore\" filter is not available for pull_request event. it is only for push event",
+        "type": "events",
+        "code": "26 |     tags-ignore:"
+      }
+    ]
+  },
+  {
+    "name": [
+      "RVD"
+    ]
+  },
+  {
+    "name": [
+      "tcpreplay"
+    ]
+  },
+  {
+    "name": [
+      "YetiForceCRM"
+    ]
+  }
+]

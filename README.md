@@ -11,16 +11,22 @@ Install `actionlint` [here](https://github.com/rhysd/actionlint) in the same dir
 
 Clone the repositories to run actionlint on.
 
-The following reposities were used to produce the output files in the sample results folder: 
+The following reposities were used to produce the output files in the sample results folder and the sample `output.json` file: 
 ```bash
-git clone https://github.com/YetiForceCompany/YetiForceCRM.git
+git clone https://github.com/abrt/abrt.git
+git clone https://github.com/argoproj/argo-cd.git
 git clone https://github.com/vmware/govmomi.git
+git clone https://github.com/AcademySoftwareFoundation/openexr.git
+git clone https://github.com/aliasrobotics/RVD.git
+git clone https://github.com/appneta/tcpreplay.git
+git clone https://github.com/YetiForceCompany/YetiForceCRM.git
 ```
 
 If actionlint does not detect any issues with the workflow configuration file, the ouput text file will be empty.
 
 ### **Usage**
 `./script.py actionlint` runs actionlint on every repository\
+`./script.py --json` consolidates all text files in the results directory in an `output.json ` file\
 `./script.py --help` prints script usage\
 `./script.py --clear` deletes all folders and output files in the results directory
 
@@ -29,7 +35,6 @@ If actionlint does not detect any issues with the workflow configuration file, t
 `./read_csv.py --help` prints script usage
 
 ### **Work in Progress**
-- Summarize actionlint results in a json 
 - Fix issues with multiple arguments 
 
 ### **Additional Notes**
