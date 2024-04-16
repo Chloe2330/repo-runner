@@ -1,0 +1,12 @@
+.github/workflows/nightly.yml:36:105: "github.head_ref" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions for more details [expression]
+   |
+36 |         run: php .github/nightly_matrix.php "${{ github.event_name }}" "${{ github.run_attempt }}" "${{ github.head_ref || github.ref_name }}"
+   |                                                                                                         ^~~~~~~~~~~~~~~
+.github/workflows/nightly.yml:196:35: property "run_tests_parameters" is not defined in object type {branch: any; debug: bool; zts: bool} [expression]
+.github/workflows/nightly.yml:202:35: property "run_tests_parameters" is not defined in object type {branch: any; debug: bool; zts: bool} [expression]
+.github/workflows/nightly.yml:209:35: property "run_tests_parameters" is not defined in object type {branch: any; debug: bool; zts: bool} [expression]
+.github/workflows/nightly.yml:217:35: property "run_tests_parameters" is not defined in object type {branch: any; debug: bool; zts: bool} [expression]
+.github/workflows/push.yml:186:49: property "debug" is not defined in object type {arch: string; os: number} [expression]
+    |
+186 |           testArtifacts: ${{ matrix.arch }}_${{ matrix.debug && 'DEBUG' || 'RELEASE' }}_${{ matrix.zts && 'ZTS' || 'NTS' }} Tracing JIT
+    |                                                 ^~~~~~~~~~~~

@@ -1,0 +1,8 @@
+.github/workflows/frontend.yml:29:45: property "output" is not defined in object type {conclusion: string; outcome: string; outputs: {string => string}} [expression]
+   |
+29 |       lintable_css_in_js_rules_changed: ${{ steps.changes.output.lintable_css_in_js_rules_changed }}
+   |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/lock.yml:4:13: scheduled job runs too frequently. it runs once per 60 seconds. the shortest interval is once every 5 minutes [events]
+  |
+4 |     - cron: '* */12 * * *'
+  |             ^~

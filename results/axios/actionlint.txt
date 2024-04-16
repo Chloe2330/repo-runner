@@ -1,0 +1,4 @@
+.github/workflows/publish.yml:80:63: property "tag" is not defined in object type {} [expression]
+   |
+80 |         run: node ./bin/actions/notify_published.js --tag ${{ github.event.inputs.tag || github.event.release.tag_name }}
+   |                                                               ^~~~~~~~~~~~~~~~~~~~~~~

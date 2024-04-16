@@ -1,0 +1,4 @@
+.github/workflows/release.yml:178:29: property "release_please" is not defined in object type {github_build: {outputs: {}; result: string}; merge_crowdin_pr: {outputs: {}; result: string}} [expression]
+    |
+178 |       STARSHIP_VERSION: ${{ needs.release_please.outputs.tag_name }}
+    |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

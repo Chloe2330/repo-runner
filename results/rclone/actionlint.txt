@@ -1,0 +1,12 @@
+.github/workflows/build_publish_release_docker_image.yml:28:20: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+   |
+28 |               run: echo ::set-output name=ACTUAL_PATCH_VERSION::$(echo $GITHUB_REF | cut -d / -f 3 | sed 's/v//g')
+   |                    ^~~~
+.github/workflows/build_publish_release_docker_image.yml:31:20: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+   |
+31 |               run: echo ::set-output name=ACTUAL_MINOR_VERSION::$(echo $GITHUB_REF | cut -d / -f 3 | sed 's/v//g' | cut -d "." -f 1,2)
+   |                    ^~~~
+.github/workflows/build_publish_release_docker_image.yml:34:20: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+   |
+34 |               run: echo ::set-output name=ACTUAL_MAJOR_VERSION::$(echo $GITHUB_REF | cut -d / -f 3 | sed 's/v//g' | cut -d "." -f 1)
+   |                    ^~~~

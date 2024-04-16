@@ -1,0 +1,1 @@
+.github/workflows/msys2.yml:48:87: property "config" is not defined in object type {mingw_package_prefix: string; msystem: string} [expression]

@@ -1,0 +1,8 @@
+.github/workflows/.test.yml:12:18: input "storage" of workflow_call event has the default value "graphdriver", but it is also required. if an input is marked as required, its default value will never be used [events]
+   |
+12 |         default: "graphdriver"
+   |                  ^~~~~~~~~~~~~
+.github/workflows/.windows.yml:15:18: input "storage" of workflow_call event has the default value "graphdriver", but it is also required. if an input is marked as required, its default value will never be used [events]
+   |
+15 |         default: "graphdriver"
+   |                  ^~~~~~~~~~~~~

@@ -1,0 +1,4 @@
+.github/workflows/pythonpackage.yml:30:13: property "cached-poetry-dependencies" is not defined in object type {} [expression]
+   |
+30 |         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+   |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

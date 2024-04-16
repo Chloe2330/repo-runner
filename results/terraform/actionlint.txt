@@ -1,0 +1,12 @@
+.github/workflows/build-terraform-cli.yml:13:18: input "cgo-enabled" of workflow_call event has the default value "0", but it is also required. if an input is marked as required, its default value will never be used [events]
+   |
+13 |         default: 0
+   |                  ^
+.github/workflows/build.yml:295:15: property "goos" is not defined in object type {} [expression]
+    |
+295 |       os: ${{ matrix.goos }}
+    |               ^~~~~~~~~~~
+.github/workflows/build.yml:296:17: property "goarch" is not defined in object type {} [expression]
+    |
+296 |       arch: ${{ matrix.goarch }}
+    |                 ^~~~~~~~~~~~~

@@ -1,0 +1,124 @@
+.github/workflows/mint.yml:20:14: label "mint" is unknown. available labels are "windows-latest", "windows-2022", "windows-2019", "windows-2016", "ubuntu-latest", "ubuntu-22.04", "ubuntu-20.04", "ubuntu-18.04", "macos-latest", "macos-latest-xl", "macos-latest-xlarge", "macos-latest-large", "macos-13-xl", "macos-13-xlarge", "macos-13-large", "macos-13", "macos-13.0", "macos-12-xl", "macos-12-xlarge", "macos-12-large", "macos-12", "macos-12.0", "macos-11", "macos-11.0", "macos-10.15", "self-hosted", "x64", "arm", "arm64", "linux", "macos", "windows". if it is a custom label for self-hosted runner, set list of labels in actionlint.yaml config file [runner-label]
+   |
+20 |     runs-on: mint
+   |              ^~~~
+.github/workflows/mint/minio-compress-encrypt.yaml:1:1: unexpected key "version" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-compress-encrypt.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-compress-encrypt.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-compress-encrypt.yaml:4:1: unexpected key "x-minio-common" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+4 | x-minio-common: &minio-common
+  | ^~~~~~~~~~~~~~~
+.github/workflows/mint/minio-compress-encrypt.yaml:27:1: unexpected key "services" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+27 | services:
+   | ^~~~~~~~~
+.github/workflows/mint/minio-compress-encrypt.yaml:72:1: unexpected key "volumes" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+72 | volumes:
+   | ^~~~~~~~
+.github/workflows/mint/minio-erasure.yaml:1:1: unexpected key "version" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-erasure.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-erasure.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-erasure.yaml:4:1: unexpected key "x-minio-common" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+4 | x-minio-common: &minio-common
+  | ^~~~~~~~~~~~~~~
+.github/workflows/mint/minio-erasure.yaml:24:1: unexpected key "services" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+24 | services:
+   | ^~~~~~~~~
+.github/workflows/mint/minio-erasure.yaml:47:1: unexpected key "volumes" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+47 | volumes:
+   | ^~~~~~~~
+.github/workflows/mint/minio-pools.yaml:1:1: unexpected key "version" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-pools.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-pools.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/mint/minio-pools.yaml:4:1: unexpected key "x-minio-common" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+4 | x-minio-common: &minio-common
+  | ^~~~~~~~~~~~~~~
+.github/workflows/mint/minio-pools.yaml:24:1: unexpected key "services" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+24 | services:
+   | ^~~~~~~~~
+.github/workflows/mint/minio-pools.yaml:101:1: unexpected key "volumes" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+    |
+101 | volumes:
+    | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site1.yaml:1:1: unexpected key "version" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site1.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site1.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site1.yaml:4:1: unexpected key "x-minio-common" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+4 | x-minio-common: &minio-common
+  | ^~~~~~~~~~~~~~~
+.github/workflows/multipart/docker-compose-site1.yaml:14:1: unexpected key "services" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+14 | services:
+   | ^~~~~~~~~
+.github/workflows/multipart/docker-compose-site1.yaml:58:1: unexpected key "volumes" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+58 | volumes:
+   | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site2.yaml:1:1: unexpected key "version" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site2.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site2.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | version: '3.7'
+  | ^~~~~~~~
+.github/workflows/multipart/docker-compose-site2.yaml:4:1: unexpected key "x-minio-common" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+4 | x-minio-common: &minio-common
+  | ^~~~~~~~~~~~~~~
+.github/workflows/multipart/docker-compose-site2.yaml:14:1: unexpected key "services" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+14 | services:
+   | ^~~~~~~~~
+.github/workflows/multipart/docker-compose-site2.yaml:58:1: unexpected key "volumes" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+58 | volumes:
+   | ^~~~~~~~

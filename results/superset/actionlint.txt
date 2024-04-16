@@ -1,0 +1,18 @@
+.github/workflows/issue_creation.yml:5:13: invalid activity type "created" for "issues" Webhook event. available types are "assigned", "closed", "deleted", "demilestoned", "edited", "labeled", "locked", "milestoned", "opened", "pinned", "reopened", "transferred", "unassigned", "unlabeled", "unlocked", "unpinned" [events]
+  |
+5 |     types: [created, edited]
+  |             ^~~~~~~~
+.github/workflows/issue_creation.yml:8:13: invalid activity type "created" for "pull_request" Webhook event. available types are "assigned", "auto_merge_disabled", "auto_merge_enabled", "closed", "converted_to_draft", "edited", "labeled", "locked", "opened", "ready_for_review", "reopened", "review_request_removed", "review_requested", "synchronize", "unassigned", "unlabeled", "unlocked" [events]
+  |
+8 |     types: [created, edited]
+  |             ^~~~~~~~
+.github/workflows/latest-release-tag.yml:32:11: if: condition "(! ${{ steps.latest-tag.outputs.SKIP_TAG }} )" is always evaluated to true because extra characters are around ${{ }} [if-cond]
+   |
+32 |       if: (! ${{ steps.latest-tag.outputs.SKIP_TAG }} )
+   |           ^~
+.github/workflows/superset-applitool-cypress.yml:79:13: property "check" is not defined in object type {} [expression]
+   |
+79 |         if: steps.check.outcome == 'failure'
+   |             ^~~~~~~~~~~~~~~~~~~
+.github/workflows/update-monorepo-lockfiles.yml:47:410: "github.event.pull_request.head.ref" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions for more details [expression]
+.github/workflows/update-monorepo-lockfiles.yml:47:448: "github.head_ref" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions for more details [expression]

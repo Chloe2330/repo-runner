@@ -1,0 +1,8 @@
+.github/workflows/contributor-doc.yml:28:16: property "deployment" is not defined in object type {} [expression]
+   |
+28 |       url: ${{ steps.deployment.outputs.page_url }}
+   |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/skipped_tests.yml:102:46: property "sqlite_pkg" is not defined in object type {} [expression]
+    |
+102 |     name: '[CE] API Integration (sqlite: ${{ matrix.sqlite_pkg }}, node: ${{ matrix.node }})'
+    |                                              ^~~~~~~~~~~~~~~~~

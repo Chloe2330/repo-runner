@@ -1,0 +1,4 @@
+.github/workflows/gin.yml:81:13: property "go-version" is not defined in object type {go: number; go-build: string; os: string; test-tags: string} [expression]
+   |
+81 |         if: matrix.go-version == '1.22.x'
+   |             ^~~~~~~~~~~~~~~~~

@@ -1,0 +1,12 @@
+.github/workflows/build-and-test-pr.yml:161:29: property "os" is not defined in object type {} [expression]
+    |
+161 |         if: ${{ startsWith( matrix.os, 'windows') && steps.cache-zookeeper.outputs.cache-hit != 'true' }}
+    |                             ^~~~~~~~~~
+.github/workflows/build-and-test-pr.yml:201:25: property "case-role" is not defined in object type {} [expression]
+    |
+201 |       CURRENT_ROLE: ${{ matrix.case-role }}
+    |                         ^~~~~~~~~~~~~~~~
+.github/workflows/build-and-test-pr.yml:207:31: property "jdk" is not defined in object type {} [expression]
+    |
+207 |       - name: "Set up JDK ${{ matrix.jdk }}"
+    |                               ^~~~~~~~~~

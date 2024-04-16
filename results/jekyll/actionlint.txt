@@ -1,0 +1,4 @@
+.github/workflows/spelling.yml:49:5: "tags-ignore" filter is not available for pull_request event. it is only for push event [events]
+   |
+49 |     tags-ignore:
+   |     ^~~~~~~~~~~~

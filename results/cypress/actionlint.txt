@@ -1,0 +1,4 @@
+.github/workflows/triage_handle_new_comments.yml:21:24: property "workflow_deploy_key" is not defined in object type {actions_runner_debug: string; actions_step_debug: string; github_token: string; triage_board_token: string} [expression]
+   |
+21 |           ssh-key: ${{ secrets.WORKFLOW_DEPLOY_KEY }} 
+   |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~

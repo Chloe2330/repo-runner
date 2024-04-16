@@ -1,0 +1,8 @@
+.github/workflows/gradle_release.yml:9:5: "branches" filter is not available for release event. it is only for push, pull_request, pull_request_target, workflow_run events [events]
+  |
+9 |     branches: [ '3.x' ]
+  |     ^~~~~~~~~
+.github/workflows/gradle_release.yml:10:5: "tags" filter is not available for release event. it is only for push event [events]
+   |
+10 |     tags:
+   |     ^~~~~

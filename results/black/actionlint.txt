@@ -1,0 +1,5 @@
+.github/workflows/diff_shades.yml:36:91: property "mode" is not defined in object type {} [expression]
+.github/workflows/docker.yml:69:23: property "docker_build" is not defined in object type {} [expression]
+   |
+69 |         run: echo ${{ steps.docker_build.outputs.digest }}
+   |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

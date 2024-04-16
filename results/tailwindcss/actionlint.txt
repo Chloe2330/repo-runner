@@ -1,0 +1,20 @@
+.github/workflows/release.yml:75:16: object, array, and null values should not be evaluated in template with ${{ }} but evaluating the value of type {image: string} [expression]
+   |
+75 |     container: ${{ matrix.container }}
+   |                ^~~
+.github/workflows/release.yml:118:17: property "setup" is not defined in object type {container: {image: string}; download: bool; os: string; page-size: number; strip: string; target: string} [expression]
+    |
+118 |         if: ${{ matrix.setup }}
+    |                 ^~~~~~~~~~~~
+.github/workflows/release.yml:119:18: property "setup" is not defined in object type {container: {image: string}; download: bool; os: string; page-size: number; strip: string; target: string} [expression]
+    |
+119 |         run: ${{ matrix.setup }}
+    |                  ^~~~~~~~~~~~
+.github/workflows/release.yml:184:37: property "target" is not defined in object type {} [expression]
+    |
+184 |           key: ${{ runner.os }}-${{ matrix.target }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+    |                                     ^~~~~~~~~~~~~
+.github/workflows/release.yml:195:37: property "target" is not defined in object type {} [expression]
+    |
+195 |           key: ${{ runner.os }}-${{ matrix.target }}-oxide-${{ hashFiles('./crates/**/*') }}
+    |                                     ^~~~~~~~~~~~~

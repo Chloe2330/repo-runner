@@ -1,0 +1,8 @@
+.github/workflows/main.yml:5:5: "branches" filter is not available for create event. it is only for push, pull_request, pull_request_target, workflow_run events [events]
+  |
+5 |     branches: master
+  |     ^~~~~~~~~
+.github/workflows/main.yml:31:14: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+   |
+31 |         run: |
+   |              ^

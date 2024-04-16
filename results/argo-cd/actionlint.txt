@@ -1,8 +1,0 @@
-.github/workflows/image-reuse.yaml:20:18: input "platforms" of workflow_call event has the default value "linux/amd64", but it is also required. if an input is marked as required, its default value will never be used [events]
-   |
-20 |         default: linux/amd64
-   |                  ^~~~~~~~~~~
-.github/workflows/image-reuse.yaml:24:18: input "push" of workflow_call event has the default value "false", but it is also required. if an input is marked as required, its default value will never be used [events]
-   |
-24 |         default: false
-   |                  ^~~~~

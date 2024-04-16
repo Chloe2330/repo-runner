@@ -1,0 +1,4 @@
+.github/workflows/PR-4.x.yaml:25:9: if: condition "${{ contains(github.event.pull_request.labels.*.name, 'category: dnn') }} || ${{ contains(github.event.pull_request.labels.*.name, 'category: dnn (onnx)') }}" is always evaluated to true because extra characters are around ${{ }} [if-cond]
+   |
+25 |     if: "${{ contains(github.event.pull_request.labels.*.name, 'category: dnn') }} || ${{ contains(github.event.pull_request.labels.*.name, 'category: dnn (onnx)') }}"
+   |         ^~~~

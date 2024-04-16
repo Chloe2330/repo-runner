@@ -1,0 +1,8 @@
+.github/workflows/ci.yml:16:5: unexpected key "inputs" for "push" section. expected one of "branches", "branches-ignore", "paths", "paths-ignore", "tags", "tags-ignore", "types", "workflows" [syntax-check]
+   |
+16 |     inputs:
+   |     ^~~~~~~
+.github/workflows/ci.yml:25:5: unexpected key "inputs" for "pull_request" section. expected one of "branches", "branches-ignore", "paths", "paths-ignore", "tags", "tags-ignore", "types", "workflows" [syntax-check]
+   |
+25 |     inputs:
+   |     ^~~~~~~

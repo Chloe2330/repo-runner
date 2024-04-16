@@ -1,0 +1,4 @@
+.github/workflows/check.yml:19:27: property "node-version" is not defined in object type {node: number} [expression]
+   |
+19 |         node-version: ${{ matrix.node-version }}
+   |                           ^~~~~~~~~~~~~~~~~~~

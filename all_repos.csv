@@ -1,0 +1,201 @@
+Ecosystem,Package Name,URL,Latest Version,Latest Version Updated,Source,Excluded,Criticality Score,Analysis Date,Results,CVE,Associated Project,Star_Count,Has YAML in Workflows,Has Dependabot
+github,freeCodeCamp,https://github.com/freeCodeCamp/freeCodeCamp,,,criticality_score,,,,,,,386000,TRUE,FALSE
+github,free-programming-books,https://github.com/EbookFoundation/free-programming-books,,,criticality_score,,,,,,,317000,TRUE,TRUE
+github,awesome,https://github.com/sindresorhus/awesome,,,criticality_score,,,,,,,296000,TRUE,FALSE
+github,public-apis,https://github.com/public-apis/public-apis,,,criticality_score,,,,,,,288000,TRUE,FALSE
+github,react,https://github.com/facebook/react,,,criticality_score,,,,,,,221000,TRUE,TRUE
+github,vue,https://github.com/vuejs/vue,,,criticality_score,,,,,,,207000,TRUE,FALSE
+github,,https://github.com/tensorflow/tensorflow,,,250 most common github urls in cve database,,,,,,,182000,TRUE,FALSE
+github,Python,https://github.com/TheAlgorithms/Python,,,criticality_score,,,,,,,177000,TRUE,TRUE
+github,You-Dont-Know-JS,https://github.com/getify/You-Dont-Know-JS,,,criticality_score,,,,,,,176000,FALSE,FALSE
+github,awesome-selfhosted,https://github.com/awesome-selfhosted/awesome-selfhosted,,,criticality_score,,,,,,,175000,FALSE,FALSE
+github,,https://github.com/torvalds/linux,,,250 most common github urls in cve database,,,,,,,169000,FALSE,FALSE
+github,ohmyzsh,https://github.com/ohmyzsh/ohmyzsh,,,criticality_score,,,,,,,168000,TRUE,TRUE
+github,,https://github.com/twbs/bootstrap,,,250 most common github urls in cve database,,,,,,,167000,TRUE,TRUE
+github,flutter,https://github.com/flutter/flutter,,,criticality_score,,,,,,,161000,TRUE,TRUE
+github,vscode,https://github.com/microsoft/vscode,,,criticality_score,,,,,,,158000,TRUE,TRUE
+github,gitignore,https://github.com/github/gitignore,,,criticality_score,,,,,,,157000,FALSE,FALSE
+github,JavaGuide,https://github.com/Snailclimb/JavaGuide,,,criticality_score,,,,,,,142000,TRUE,FALSE
+github,javascript,https://github.com/airbnb/javascript,,,criticality_score,,,,,,,141000,TRUE,FALSE
+github,youtube-dl,https://github.com/ytdl-org/youtube-dl,,,criticality_score,,,,,,,128000,TRUE,FALSE
+github,transformers,https://github.com/huggingface/transformers,,,criticality_score,,,,,,,123000,TRUE,FALSE
+github,,https://github.com/vercel/next.js,,,250 most common github urls in cve database,,,,,,,120000,TRUE,FALSE
+github,,https://github.com/golang/go,,,250 most common github urls in cve database,,,,,,,119000,FALSE,FALSE
+github,awesome-go,https://github.com/avelino/awesome-go,,,criticality_score,,,,,,,119000,TRUE,FALSE
+github,react-native,https://github.com/facebook/react-native,,,criticality_score,,,,,,,115000,TRUE,FALSE
+github,,https://github.com/electron/electron,,,250 most common github urls in cve database,,,,,,,112000,TRUE,FALSE
+github,d3,https://github.com/d3/d3,,,criticality_score,,,,,,,108000,TRUE,FALSE
+github,,https://github.com/kubernetes/kubernetes,,,250 most common github urls in cve database,,,,,,,106000,FALSE,FALSE
+github,axios,https://github.com/axios/axios,,,criticality_score,,,,,,,104000,TRUE,TRUE
+github,PowerToys,https://github.com/microsoft/PowerToys,,,criticality_score,,,,,,,103000,TRUE,TRUE
+github,node,https://github.com/nodejs/node,,,criticality_score,,,,,,,103000,TRUE,TRUE
+github,create-react-app,https://github.com/facebook/create-react-app,,,criticality_score,,,,,,,102000,TRUE,FALSE
+github,scrcpy,https://github.com/Genymobile/scrcpy,,,criticality_score,,,,,,,101000,FALSE,FALSE
+github,three.js,https://github.com/mrdoob/three.js,,,criticality_score,,,,,,,98400,TRUE,FALSE
+github,TypeScript,https://github.com/microsoft/TypeScript,,,criticality_score,,,,,,,97500,TRUE,TRUE
+github,angular,https://github.com/angular/angular,,,criticality_score,,,,,,,94300,TRUE,FALSE
+github,terminal,https://github.com/microsoft/terminal,,,criticality_score,,,,,,,93200,TRUE,FALSE
+github,deno,https://github.com/denoland/deno,,,criticality_score,,,,,,,92700,TRUE,FALSE
+github,,https://github.com/rust-lang/rust,,,250 most common github urls in cve database,,,,,,,92200,TRUE,FALSE
+github,material-ui,https://github.com/mui-org/material-ui,,,criticality_score,,,,,,,91300,TRUE,FALSE
+github,ant-design,https://github.com/ant-design/ant-design,,,criticality_score,,,,,,,89900,TRUE,TRUE
+github,puppeteer,https://github.com/puppeteer/puppeteer,,,criticality_score,,,,,,,86500,TRUE,TRUE
+github,java-design-patterns,https://github.com/iluwatar/java-design-patterns,,,criticality_score,,,,,,,86200,TRUE,TRUE
+github,vue-element-admin,https://github.com/PanJiaChen/vue-element-admin,,,criticality_score,,,,,,,86000,FALSE,FALSE
+github,storybook,https://github.com/storybookjs/storybook,,,criticality_score,,,,,,,82500,TRUE,FALSE
+github,free-for-dev,https://github.com/ripienaar/free-for-dev,,,criticality_score,,,,,,,82500,FALSE,FALSE
+github,godot,https://github.com/godotengine/godot,,,criticality_score,,,,,,,82400,TRUE,FALSE
+github,animate.css,https://github.com/animate-css/animate.css,,,criticality_score,,,,,,,79600,TRUE,TRUE
+github,frp,https://github.com/fatedier/frp,,,criticality_score,,,,,,,78800,TRUE,FALSE
+github,tailwindcss,https://github.com/tailwindlabs/tailwindcss,,,criticality_score,,,,,,,77700,TRUE,FALSE
+github,pytorch,https://github.com/pytorch/pytorch,,,criticality_score,,,,,,,77100,TRUE,FALSE
+github,laravel,https://github.com/laravel/laravel,,,criticality_score,,,,,,,76600,TRUE,FALSE
+github,models,https://github.com/tensorflow/models,,,criticality_score,,,,,,,76500,TRUE,FALSE
+github,django,https://github.com/django/django,,,criticality_score,,,,,,,76400,TRUE,FALSE
+github,svelte,https://github.com/sveltejs/svelte,,,criticality_score,,,,,,,76000,TRUE,FALSE
+github,neovim,https://github.com/neovim/neovim,,,criticality_score,,,,,,,75700,TRUE,TRUE
+github,bitcoin,https://github.com/bitcoin/bitcoin,,,criticality_score,,,,,,,75200,TRUE,FALSE
+github,gin,https://github.com/gin-gonic/gin,,,criticality_score,,,,,,,75100,TRUE,TRUE
+github,nvm,https://github.com/nvm-sh/nvm,,,criticality_score,,,,,,,75100,TRUE,FALSE
+github,,https://github.com/opencv/opencv,,,250 most common github urls in cve database,,,,,,,75100,TRUE,FALSE
+github,spring-boot,https://github.com/spring-projects/spring-boot,,,criticality_score,,,,,,,72400,TRUE,TRUE
+github,hugo,https://github.com/gohugoio/hugo,,,criticality_score,,,,,,,72100,TRUE,TRUE
+github,excalidraw,https://github.com/excalidraw/excalidraw,,,criticality_score,,,,,,,71400,TRUE,FALSE
+github,awesome-vue,https://github.com/vuejs/awesome-vue,,,criticality_score,,,,,,,70800,TRUE,FALSE
+github,fastapi,https://github.com/tiangolo/fastapi,,,criticality_score,,,,,,,70000,TRUE,TRUE
+github,core,https://github.com/home-assistant/core,,,criticality_score,,,,,,,68200,TRUE,TRUE
+github,netdata,https://github.com/netdata/netdata,,,criticality_score,,,,,,,67900,TRUE,TRUE
+github,,https://github.com/moby/moby,,,250 most common github urls in cve database,,,,,,,67600,TRUE,FALSE
+github,elasticsearch,https://github.com/elastic/elasticsearch,,,criticality_score,,,,,,,67200,TRUE,FALSE
+github,reveal.js,https://github.com/hakimel/reveal.js,,,criticality_score,,,,,,,66800,TRUE,FALSE
+github,mermaid,https://github.com/mermaid-js/mermaid,,,criticality_score,,,,,,,66400,TRUE,FALSE
+github,flask,https://github.com/pallets/flask,,,criticality_score,,,,,,,66100,TRUE,TRUE
+github,swift,https://github.com/apple/swift,,,criticality_score,,,,,,,65700,FALSE,FALSE
+github,code-server,https://github.com/cdr/code-server,,,criticality_score,,,,,,,64900,TRUE,FALSE
+github,,https://github.com/redis/redis,,,250 most common github urls in cve database,,,,,,,64400,TRUE,TRUE
+github,vite,https://github.com/vitejs/vite,,,criticality_score,,,,,,,64200,TRUE,FALSE
+github,webpack,https://github.com/webpack/webpack,,,criticality_score,,,,,,,64099,TRUE,TRUE
+github,nest,https://github.com/nestjs/nest,,,criticality_score,,,,,,,63800,TRUE,TRUE
+github,express,https://github.com/expressjs/express,,,criticality_score,,,,,,,63600,TRUE,FALSE
+github,protobuf,https://github.com/protocolbuffers/protobuf,,,criticality_score,,,,,,,63400,TRUE,TRUE
+github,Chart.js,https://github.com/chartjs/Chart.js,,,criticality_score,,,,,,,63300,TRUE,TRUE
+github,playwright,https://github.com/microsoft/playwright,,,criticality_score,,,,,,,61100,TRUE,FALSE
+github,,https://github.com/ansible/ansible,,,250 most common github urls in cve database,,,,,,,60800,FALSE,FALSE
+github,keras,https://github.com/keras-team/keras,,,criticality_score,,,,,,,60800,TRUE,TRUE
+github,redux,https://github.com/reduxjs/redux,,,criticality_score,,,,,,,60400,TRUE,FALSE
+github,socket.io,https://github.com/socketio/socket.io,,,criticality_score,,,,,,,60000,TRUE,FALSE
+github,,https://github.com/grafana/grafana,,,250 most common github urls in cve database,,,,,,,60000,TRUE,TRUE
+github,atom,https://github.com/atom/atom,,,criticality_score,,,,,,,59900,FALSE,FALSE
+github,strapi,https://github.com/strapi/strapi,,,criticality_score,,,,,,,59600,TRUE,TRUE
+github,,https://github.com/python/cpython,,,250 most common github urls in cve database,,,,,,,59200,TRUE,TRUE
+github,syncthing,https://github.com/syncthing/syncthing,,,criticality_score,,,,,,,59000,TRUE,TRUE
+github,fzf,https://github.com/junegunn/fzf,,,criticality_score,,,,,,,59000,TRUE,TRUE
+github,angular.js,https://github.com/angular/angular.js,,,criticality_score,,,,,,,58900,FALSE,FALSE
+github,jquery,https://github.com/jquery/jquery,,,criticality_score,,,,,,,58800,TRUE,TRUE
+github,echarts,https://github.com/apache/echarts,,,criticality_score,,,,,,,58700,TRUE,FALSE
+github,Apache,https://github.com/apache,,,wg/ossf,,,,,,,58700,FALSE,FALSE
+github,incubator-echarts,https://github.com/apache/incubator-echarts,,,criticality_score,,,,,,,58700,TRUE,FALSE
+github,lodash,https://github.com/lodash/lodash,,,criticality_score,,,,,,,58700,TRUE,FALSE
+github,superset,https://github.com/apache/superset,,,criticality_score,,,,,,,58000,TRUE,TRUE
+github,shadowsocks-windows,https://github.com/shadowsocks/shadowsocks-windows,,,criticality_score,,,,,,,57900,TRUE,FALSE
+github,scikit-learn,https://github.com/scikit-learn/scikit-learn,,,criticality_score,,,,,,,57900,TRUE,FALSE
+github,tesseract,https://github.com/tesseract-ocr/tesseract,,,criticality_score,,,,,,,57500,TRUE,FALSE
+github,manim,https://github.com/3b1b/manim,,,criticality_score,,,,,,,57200,TRUE,FALSE
+github,Java,https://github.com/TheAlgorithms/Java,,,criticality_score,,,,,,,56400,TRUE,TRUE
+github,html5-boilerplate,https://github.com/h5bp/html5-boilerplate,,,criticality_score,,,,,,,55900,TRUE,TRUE
+github,imgui,https://github.com/ocornut/imgui,,,criticality_score,,,,,,,55200,TRUE,FALSE
+github,obs-studio,https://github.com/obsproject/obs-studio,,,criticality_score,,,,,,,55100,TRUE,FALSE
+github,gatsby,https://github.com/gatsbyjs/gatsby,,,criticality_score,,,,,,,55000,TRUE,FALSE
+github,spring-framework,https://github.com/spring-projects/spring-framework,,,criticality_score,,,,,,,54900,TRUE,FALSE
+github,rails,https://github.com/rails/rails,,,criticality_score,,,,,,,54800,TRUE,FALSE
+github,terminus,https://github.com/Eugeny/terminus,,,criticality_score,,,,,,,54600,TRUE,TRUE
+github,element,https://github.com/ElemeFE/element,,,criticality_score,,,,,,,53900,TRUE,FALSE
+github,leetcode,https://github.com/azl397985856/leetcode,,,criticality_score,,,,,,,53600,TRUE,FALSE
+github,caddy,https://github.com/caddyserver/caddy,,,criticality_score,,,,,,,53200,TRUE,TRUE
+github,docusaurus,https://github.com/facebook/docusaurus,,,criticality_score,,,,,,,52400,TRUE,TRUE
+github,prometheus,https://github.com/prometheus/prometheus,,,criticality_score,,,,,,,52400,TRUE,TRUE
+github,alacritty,https://github.com/alacritty/alacritty,,,criticality_score,,,,,,,52300,TRUE,FALSE
+github,localstack,https://github.com/localstack/localstack,,,criticality_score,,,,,,,51800,TRUE,TRUE
+github,react-router,https://github.com/ReactTraining/react-router,,,criticality_score,,,,,,,51800,TRUE,TRUE
+github,nuxt.js,https://github.com/nuxt/nuxt.js,,,criticality_score,,,,,,,51500,TRUE,FALSE
+github,requests,https://github.com/psf/requests,,,criticality_score,,,,,,,51200,TRUE,TRUE
+github,Semantic-UI,https://github.com/Semantic-Org/Semantic-UI,,,criticality_score,,,,,,,51000,FALSE,FALSE
+github,scrapy,https://github.com/scrapy/scrapy,,,criticality_score,,,,,,,50600,TRUE,FALSE
+github,ionic-framework,https://github.com/ionic-team/ionic-framework,,,criticality_score,,,,,,,50300,TRUE,FALSE
+github,guava,https://github.com/google/guava,,,criticality_score,,,,,,,49300,TRUE,TRUE
+github,,https://github.com/git/git,,,250 most common github urls in cve database,,,,,,,49300,TRUE,FALSE
+github,you-get,https://github.com/soimort/you-get,,,criticality_score,,,,,,,49100,TRUE,FALSE
+github,bulma,https://github.com/jgthms/bulma,,,criticality_score,,,,,,,48500,TRUE,FALSE
+github,rustlings,https://github.com/rust-lang/rustlings,,,criticality_score,,,,,,,48500,TRUE,FALSE
+github,jekyll,https://github.com/jekyll/jekyll,,,criticality_score,,,,,,,48200,TRUE,TRUE
+github,prettier,https://github.com/prettier/prettier,,,criticality_score,,,,,,,48000,TRUE,TRUE
+github,tldr,https://github.com/tldr-pages/tldr,,,criticality_score,,,,,,,48000,TRUE,TRUE
+github,moment,https://github.com/moment/moment,,,criticality_score,,,,,,,47800,TRUE,FALSE
+github,RxJava,https://github.com/ReactiveX/RxJava,,,criticality_score,,,,,,,47600,TRUE,TRUE
+github,,https://github.com/traefik/traefik,,,250 most common github urls in cve database,,,,,,,47500,TRUE,FALSE
+github,kotlin,https://github.com/JetBrains/kotlin,,,criticality_score,,,,,,,47300,FALSE,FALSE
+github,openpilot,https://github.com/commaai/openpilot,,,criticality_score,,,,,,,47200,TRUE,FALSE
+github,DefinitelyTyped,https://github.com/DefinitelyTyped/DefinitelyTyped,,,criticality_score,,,,,,,46900,TRUE,TRUE
+github,rich,https://github.com/willmcgugan/rich,,,criticality_score,,,,,,,46800,TRUE,TRUE
+github,pi-hole,https://github.com/pi-hole/pi-hole,,,criticality_score,,,,,,,46500,TRUE,TRUE
+github,yolov5,https://github.com/ultralytics/yolov5,,,criticality_score,,,,,,,46300,TRUE,TRUE
+github,etcd,https://github.com/etcd-io/etcd,,,criticality_score,,,,,,,46100,TRUE,TRUE
+github,bat,https://github.com/sharkdp/bat,,,criticality_score,,,,,,,46000,TRUE,TRUE
+github,serverless,https://github.com/serverless/serverless,,,criticality_score,,,,,,,46000,TRUE,FALSE
+github,cypress,https://github.com/cypress-io/cypress,,,criticality_score,,,,,,,46000,TRUE,FALSE
+github,pdf.js,https://github.com/mozilla/pdf.js,,,criticality_score,,,,,,,45900,TRUE,TRUE
+github,mastodon,https://github.com/tootsuite/mastodon,,,criticality_score,,,,,,,45700,TRUE,FALSE
+github,dayjs,https://github.com/iamkun/dayjs,,,criticality_score,,,,,,,45600,TRUE,FALSE
+github,,https://github.com/ethereum/go-ethereum,,,250 most common github urls in cve database,,,,,,,45600,TRUE,FALSE
+github,Ghost,https://github.com/TryGhost/Ghost,,,criticality_score,,,,,,,45500,TRUE,FALSE
+github,okhttp,https://github.com/square/okhttp,,,criticality_score,,,,,,,45200,TRUE,FALSE
+github,lazygit,https://github.com/jesseduffield/lazygit,,,criticality_score,,,,,,,44800,TRUE,TRUE
+github,v2ray-core,https://github.com/v2ray/v2ray-core,,,criticality_score,,,,,,,44600,TRUE,TRUE
+github,ripgrep,https://github.com/BurntSushi/ripgrep,,,criticality_score,,,,,,,44400,TRUE,FALSE
+github,julia,https://github.com/JuliaLang/julia,,,criticality_score,,,,,,,44400,TRUE,FALSE
+github,vue-next,https://github.com/vuejs/vue-next,,,criticality_score,,,,,,,44200,TRUE,FALSE
+github,,https://github.com/gogs/gogs,,,250 most common github urls in cve database,,,,,,,44000,TRUE,TRUE
+github,meteor,https://github.com/meteor/meteor,,,criticality_score,,,,,,,44000,TRUE,TRUE
+github,,https://github.com/minio/minio,,,250 most common github urls in cve database,,,,,,,43800,TRUE,FALSE
+github,Magisk,https://github.com/topjohnwu/Magisk,,,criticality_score,,,,,,,43600,TRUE,FALSE
+github,AdminLTE,https://github.com/ColorlibHQ/AdminLTE,,,criticality_score,,,,,,,43500,TRUE,TRUE
+github,jest,https://github.com/facebook/jest,,,criticality_score,,,,,,,43500,TRUE,FALSE
+github,rclone,https://github.com/rclone/rclone,,,criticality_score,,,,,,,43400,TRUE,TRUE
+github,parcel,https://github.com/parcel-bundler/parcel,,,criticality_score,,,,,,,43100,TRUE,FALSE
+github,PowerShell,https://github.com/PowerShell/PowerShell,,,criticality_score,,,,,,,43100,TRUE,TRUE
+github,babel,https://github.com/babel/babel,,,criticality_score,,,,,,,42900,TRUE,FALSE
+github,MeiliSearch,https://github.com/meilisearch/MeiliSearch,,,criticality_score,,,,,,,42800,TRUE,TRUE
+github,uBlock,https://github.com/gorhill/uBlock,,,criticality_score,,,,,,,42700,TRUE,FALSE
+github,retrofit,https://github.com/square/retrofit,,,criticality_score,,,,,,,42600,TRUE,FALSE
+github,joplin,https://github.com/laurent22/joplin,,,criticality_score,,,,,,,42500,TRUE,FALSE
+github,powerlevel10k,https://github.com/romkatv/powerlevel10k,,,criticality_score,,,,,,,42400,FALSE,FALSE
+github,pixi.js,https://github.com/pixijs/pixi.js,,,criticality_score,,,,,,,42300,TRUE,FALSE
+github,first-contributions,https://github.com/firstcontributions/first-contributions,,,criticality_score,,,,,,,42100,TRUE,FALSE
+github,,https://github.com/FFmpeg/FFmpeg,,,250 most common github urls in cve database,,,,,,,41800,FALSE,FALSE
+github,pandas,https://github.com/pandas-dev/pandas,,,criticality_score,,,,,,,41700,TRUE,TRUE
+github,,https://github.com/go-gitea/gitea,,,250 most common github urls in cve database,,,,,,,41500,TRUE,FALSE
+github,yarn,https://github.com/yarnpkg/yarn,,,criticality_score,,,,,,,41300,FALSE,FALSE
+github,CppCoreGuidelines,https://github.com/isocpp/CppCoreGuidelines,,,criticality_score,,,,,,,41300,TRUE,FALSE
+github,hiring-without-whiteboards,https://github.com/poteto/hiring-without-whiteboards,,,criticality_score,,,,,,,41200,TRUE,FALSE
+github,terraform,https://github.com/hashicorp/terraform,,,criticality_score,,,,,,,41000,TRUE,FALSE
+github,appwrite,https://github.com/appwrite/appwrite,,,criticality_score,,,,,,,40600,TRUE,FALSE
+github,grpc,https://github.com/grpc/grpc,,,criticality_score,,,,,,,40600,TRUE,TRUE
+github,pm2,https://github.com/Unitech/pm2,,,criticality_score,,,,,,,40500,TRUE,FALSE
+github,Alamofire,https://github.com/Alamofire/Alamofire,,,criticality_score,,,,,,,40400,TRUE,FALSE
+github,,https://github.com/discourse/discourse,,,250 most common github urls in cve database,,,,,,,40300,TRUE,TRUE
+github,starship,https://github.com/starship/starship,,,criticality_score,,,,,,,40200,TRUE,FALSE
+github,react-use,https://github.com/streamich/react-use,,,criticality_score,,,,,,,40100,TRUE,FALSE
+github,nw.js,https://github.com/nwjs/nw.js,,,criticality_score,,,,,,,40100,FALSE,FALSE
+github,styled-components,https://github.com/styled-components/styled-components,,,criticality_score,,,,,,,40000,TRUE,FALSE
+github,n8n,https://github.com/n8n-io/n8n,,,criticality_score,,,,,,,39900,TRUE,FALSE
+github,dubbo,https://github.com/apache/dubbo,,,criticality_score,,,,,,,39900,TRUE,FALSE
+github,Leaflet,https://github.com/Leaflet/Leaflet,,,criticality_score,,,,,,,39800,TRUE,TRUE
+github,json,https://github.com/nlohmann/json,,,criticality_score,,,,,,,39700,TRUE,FALSE
+github,open-source-ios-apps,https://github.com/dkhamsing/open-source-ios-apps,,,criticality_score,,,,,,,39700,TRUE,TRUE
+github,react-query,https://github.com/tannerlinsley/react-query,,,criticality_score,,,,,,,39400,TRUE,FALSE
+github,react-hook-form,https://github.com/react-hook-form/react-hook-form,,,criticality_score,,,,,,,39300,TRUE,FALSE
+github,uni-app,https://github.com/dcloudio/uni-app,,,criticality_score,,,,,,,39300,TRUE,FALSE
+github,brew,https://github.com/Homebrew/brew,,,criticality_score,,,,,,,39100,TRUE,TRUE
+github,vuetify,https://github.com/vuetifyjs/vuetify,,,criticality_score,,,,,,,38900,TRUE,FALSE
+github,quill,https://github.com/quilljs/quill,,,criticality_score,,,,,,,38800,TRUE,FALSE
+github,Rocket.Chat,https://github.com/RocketChat/Rocket.Chat,,,criticality_score,,,,,,,38700,TRUE,TRUE

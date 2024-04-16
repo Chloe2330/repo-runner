@@ -1,0 +1,5 @@
+.github/workflows/check-whitespace.yml:28:742: "github.event.pull_request.head.ref" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions for more details [expression]
+.github/workflows/main.yml:120:18: property "workspace" is not defined in object type {arch: string; debug: string; name: string; os: string; temp: string; tool_cache: string} [expression]
+    |
+120 |         HOME: ${{runner.workspace}}
+    |                  ^~~~~~~~~~~~~~~~~~

@@ -1,0 +1,96 @@
+.github/workflows/auto-cache/action.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'automatically cache based on current runner'
+  | ^~~~~
+.github/workflows/auto-cache/action.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'automatically cache based on current runner'
+  | ^~~~~
+.github/workflows/auto-cache/action.yaml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/auto-cache/action.yaml:18:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+18 | runs:
+   | ^~~~~
+.github/workflows/compile-openpilot/action.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'compile openpilot'
+  | ^~~~~
+.github/workflows/compile-openpilot/action.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'compile openpilot'
+  | ^~~~~
+.github/workflows/compile-openpilot/action.yaml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/selfdrive_tests.yaml:47:30: property "restore-scons-cache" is not defined in object type {} [expression]
+   |
+47 |       timeout-minutes: ${{ ((steps.restore-scons-cache.outputs.cache-hit == 'true') && 10 || 30) }} # allow more time when we missed the scons cache
+   |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/selfdrive_tests.yaml:83:30: property "restore-scons-cache" is not defined in object type {} [expression]
+   |
+83 |       timeout-minutes: ${{ ((steps.restore-scons-cache.outputs.cache-hit == 'true') && 15 || 30) }} # allow more time when we missed the scons cache
+   |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/selfdrive_tests.yaml:168:30: property "restore-scons-cache" is not defined in object type {} [expression]
+    |
+168 |       timeout-minutes: ${{ ((steps.restore-scons-cache.outputs.cache-hit == 'true') && 10 || 30) }} # allow more time when we missed the scons cache
+    |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/selfdrive_tests.yaml:309:13: missing input "restore-keys" which is required by action "automatically cache based on current runner" defined at "./.github/workflows/auto-cache". all required inputs are "key", "path", "restore-keys" [action]
+    |
+309 |       uses: ./.github/workflows/auto-cache
+    |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/selfdrive_tests.yaml:352:14: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+    |
+352 |         run: |
+    |              ^
+.github/workflows/setup-pre-commit/action.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'set up pre-commit environment'
+  | ^~~~~
+.github/workflows/setup-pre-commit/action.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'set up pre-commit environment'
+  | ^~~~~
+.github/workflows/setup-pre-commit/action.yaml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/setup-with-retry/action.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'openpilot env setup, with retry on failure'
+  | ^~~~~
+.github/workflows/setup-with-retry/action.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'openpilot env setup, with retry on failure'
+  | ^~~~~
+.github/workflows/setup-with-retry/action.yaml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/setup-with-retry/action.yaml:13:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+13 | runs:
+   | ^~~~~
+.github/workflows/setup/action.yaml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'openpilot env setup'
+  | ^~~~~
+.github/workflows/setup/action.yaml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'openpilot env setup'
+  | ^~~~~
+.github/workflows/setup/action.yaml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/setup/action.yaml:13:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+13 | runs:
+   | ^~~~~
+.github/workflows/tools_tests.yaml:97:30: property "restore-scons-cache" is not defined in object type {} [expression]
+   |
+97 |       timeout-minutes: ${{ ((steps.restore-scons-cache.outputs.cache-hit == 'true') && 10 || 30) }} # allow more time when we missed the scons cache
+   |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

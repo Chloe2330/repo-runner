@@ -1,0 +1,4 @@
+.github/workflows/test-nightly.yml:23:31: property "node-version" is not defined in object type {shard: string} [expression]
+   |
+23 |       - name: Use Node.js ${{ matrix.node-version }}
+   |                               ^~~~~~~~~~~~~~~~~~~

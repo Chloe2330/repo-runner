@@ -1,0 +1,35 @@
+.github/workflows/bugs-triage-slack-notification.yml:19:60: "github.event.issue.title" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions for more details [expression]
+.github/workflows/e2e-stress-test-flake-fix.yml:73:37: property "edition" is not defined in object type {} [expression]
+   |
+73 |       - name: Download Metabase ${{ matrix.edition }} uberjar
+   |                                     ^~~~~~~~~~~~~~
+.github/workflows/e2e-tests.yml:90:104: property "even" is not defined in object type {action: string; action_path: string; action_ref: string; action_repository: string; action_status: string; actor: string; actor_id: string; api_url: string; base_ref: string; env: string; event: object; event_name: string; event_path: string; graphql_url: string; head_ref: string; job: string; job_workflow_sha: string; path: string; ref: string; ref_name: string; ref_protected: string; ref_type: string; repository: string; repository_id: string; repository_owner: string; repository_owner_id: string; repositoryurl: string; retention_days: number; run_attempt: string; run_id: string; run_number: string; secret_source: string; server_url: string; sha: string; token: string; triggering_actor: string; workflow: string; workflow_ref: string; workflow_sha: string; workspace: string} [expression]
+   |
+90 |       COMMIT_INFO_MESSAGE : ${{ github.event.pull_request.title || github.event.head_commit.message || github.even.head.sha }}
+   |                                                                                                        ^~~~~~~~~~~~~~~~~~~~
+.github/workflows/e2e-tests.yml:237:49: property "edition" is not defined in object type {} [expression]
+    |
+237 |       - name: Retrieve uberjar artifact for ${{ matrix.edition }}
+    |                                                 ^~~~~~~~~~~~~~
+.github/workflows/escalation-slack-notification.yml:17:60: "github.event.issue.title" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions for more details [expression]
+.github/workflows/frontend.yml:73:14: label "buildjet-2vcpu-ubuntu-2204" is unknown. available labels are "windows-latest", "windows-2022", "windows-2019", "windows-2016", "ubuntu-latest", "ubuntu-22.04", "ubuntu-20.04", "ubuntu-18.04", "macos-latest", "macos-latest-xl", "macos-latest-xlarge", "macos-latest-large", "macos-13-xl", "macos-13-xlarge", "macos-13-large", "macos-13", "macos-13.0", "macos-12-xl", "macos-12-xlarge", "macos-12-large", "macos-12", "macos-12.0", "macos-11", "macos-11.0", "macos-10.15", "self-hosted", "x64", "arm", "arm64", "linux", "macos", "windows". if it is a custom label for self-hosted runner, set list of labels in actionlint.yaml config file [runner-label]
+   |
+73 |     runs-on: buildjet-2vcpu-ubuntu-2204
+   |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/percy-issue-comment.yml:24:20: property "pr_info" is not defined in object type {} [expression]
+   |
+24 |           ref: ${{ needs.pr_info.outputs.branch_name }}
+   |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/percy-issue-comment.yml:56:14: label "buildjet-4vcpu-ubuntu-2004" is unknown. available labels are "windows-latest", "windows-2022", "windows-2019", "windows-2016", "ubuntu-latest", "ubuntu-22.04", "ubuntu-20.04", "ubuntu-18.04", "macos-latest", "macos-latest-xl", "macos-latest-xlarge", "macos-latest-large", "macos-13-xl", "macos-13-xlarge", "macos-13-large", "macos-13", "macos-13.0", "macos-12-xl", "macos-12-xlarge", "macos-12-large", "macos-12", "macos-12.0", "macos-11", "macos-11.0", "macos-10.15", "self-hosted", "x64", "arm", "arm64", "linux", "macos", "windows". if it is a custom label for self-hosted runner, set list of labels in actionlint.yaml config file [runner-label]
+   |
+56 |     runs-on: buildjet-4vcpu-ubuntu-2004
+   |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/percy-visual-label.yml:12:14: label "buildjet-4vcpu-ubuntu-2004" is unknown. available labels are "windows-latest", "windows-2022", "windows-2019", "windows-2016", "ubuntu-latest", "ubuntu-22.04", "ubuntu-20.04", "ubuntu-18.04", "macos-latest", "macos-latest-xl", "macos-latest-xlarge", "macos-latest-large", "macos-13-xl", "macos-13-xlarge", "macos-13-large", "macos-13", "macos-13.0", "macos-12-xl", "macos-12-xlarge", "macos-12-large", "macos-12", "macos-12.0", "macos-11", "macos-11.0", "macos-10.15", "self-hosted", "x64", "arm", "arm64", "linux", "macos", "windows". if it is a custom label for self-hosted runner, set list of labels in actionlint.yaml config file [runner-label]
+   |
+12 |     runs-on: buildjet-4vcpu-ubuntu-2004
+   |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/team-issues-slack-notification.yml:21:60: "github.event.issue.title" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions for more details [expression]
+.github/workflows/yaml.yml:28:9: property "files-changed" is not defined in object type {} [expression]
+   |
+28 |     if: needs.files-changed.outputs.yaml == 'true'
+   |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

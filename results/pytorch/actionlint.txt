@@ -1,0 +1,8 @@
+.github/workflows/_linux-test.yml:353:33: property "workspace" is not defined in object type {arch: string; debug: string; name: string; os: string; temp: string; tool_cache: string} [expression]
+    |
+353 |           RUNNER_WORKSPACE: ${{ runner.workspace }}
+    |                                 ^~~~~~~~~~~~~~~~
+.github/workflows/_mac-test.yml:213:13: if: condition "always() && ${{ steps.monitor-script.outputs.monitor-script-pid }}" is always evaluated to true because extra characters are around ${{ }} [if-cond]
+    |
+213 |         if: always() && ${{ steps.monitor-script.outputs.monitor-script-pid }}
+    |             ^~~~~~~~

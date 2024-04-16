@@ -1,0 +1,28 @@
+.github/workflows/ci-master.yml:48:16: property "branch" is not defined in object type {} [expression]
+   |
+48 |       ref: ${{ inputs.branch }}
+   |                ^~~~~~~~~~~~~
+.github/workflows/ci-master.yml:51:24: input "collectCoverage" is typed as string by reusable workflow "./.github/workflows/units-tests-reusable.yml". bool value cannot be assigned [expression]
+   |
+51 |       collectCoverage: true
+   |                        ^~~~
+.github/workflows/ci-master.yml:64:20: property "branch" is not defined in object type {} [expression]
+   |
+64 |           ref: ${{ inputs.branch }}
+   |                    ^~~~~~~~~~~~~
+.github/workflows/docker-images.yml:16:14: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+   |
+16 |         run: echo ::set-output name=tag::$(echo ${GITHUB_REF:14})
+   |              ^~~~
+.github/workflows/e2e-reusable.yml:163:35: 1st argument of function call is not assignable. "bool" cannot be assigned to "string". called function type is "fromJSON(string) -> any" [expression]
+    |
+163 |           parallel: ${{ fromJSON( inputs.spec == 'e2e/*' && inputs.parallel || false ) }}
+    |                                   ^~~~~~~~~~~
+.github/workflows/e2e-reusable.yml:186:14: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+    |
+186 |         run: |
+    |              ^
+.github/workflows/e2e-tests-pr.yml:6:5: unexpected key "branch" for "pull_request_review" section. expected one of "branches", "branches-ignore", "paths", "paths-ignore", "tags", "tags-ignore", "types", "workflows" [syntax-check]
+  |
+6 |     branch:
+  |     ^~~~~~~

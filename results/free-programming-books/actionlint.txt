@@ -1,0 +1,12 @@
+.github/workflows/check-urls.yml:109:21: property "set-output" is not defined in object type {} [expression]
+    |
+109 |           name: ${{ steps.set-output.outputs.FILENAME}}
+    |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/comment-pr.yml:14:9: if: condition "${{ github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success' }}\n" is always evaluated to true because extra characters are around ${{ }} [if-cond]
+   |
+14 |     if: >
+   |         ^
+.github/workflows/detect-conflicting-prs.yml:47:28: elements of object at receiver of object filtering `.*` must be type of object but got "string". the type of receiver was "{string => string}" [expression]
+   |
+47 |         run: echo ${{ join(steps.pr-labeler.outputs.*, ',') }}
+   |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~

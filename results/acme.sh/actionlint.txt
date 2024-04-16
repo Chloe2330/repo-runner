@@ -1,0 +1,20 @@
+.github/workflows/DNS.yml:26:14: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+   |
+26 |         run: |
+   |              ^
+.github/workflows/DNS.yml:26:14: workflow command "set-output" was deprecated. use `echo "{name}={value}" >> $GITHUB_OUTPUT` instead: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions [deprecated-commands]
+   |
+26 |         run: |
+   |              ^
+.github/workflows/DragonFlyBSD.yml:46:26: property "acme_use_wget" is not defined in object type {ca: string; ca_ecdsa: string; ca_email: string; test_acme_server: string; test_preferred_chain: string} [expression]
+   |
+46 |       ACME_USE_WGET: ${{ matrix.ACME_USE_WGET }}
+   |                          ^~~~~~~~~~~~~~~~~~~~
+.github/workflows/NetBSD.yml:46:26: property "acme_use_wget" is not defined in object type {ca: string; ca_ecdsa: string; ca_email: string; test_acme_server: string; test_preferred_chain: string} [expression]
+   |
+46 |       ACME_USE_WGET: ${{ matrix.ACME_USE_WGET }}
+   |                          ^~~~~~~~~~~~~~~~~~~~
+.github/workflows/Ubuntu.yml:66:23: property "no_ecc_384" is not defined in object type {acme_use_wget: number; ca: string; ca_ecdsa: string; ca_email: string; no_revoke: number; test_acme_server: string; test_ipcert: number; test_preferred_chain: string; testingdomain: string} [expression]
+   |
+66 |       NO_ECC_384: ${{ matrix.NO_ECC_384 }}
+   |                       ^~~~~~~~~~~~~~~~~

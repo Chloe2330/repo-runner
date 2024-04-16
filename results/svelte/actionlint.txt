@@ -1,0 +1,8 @@
+.github/workflows/ci.yml:58:13: if: condition "(${{ success() }} || ${{ failure() }})" is always evaluated to true because extra characters are around ${{ }} [if-cond]
+   |
+58 |         if: (${{ success() }} || ${{ failure() }}) # ensures this step runs even if previous steps fail (avoids multiple runs uncovering different issues at different steps)
+   |             ^~~~
+.github/workflows/ci.yml:61:13: if: condition "(${{ success() }} || ${{ failure() }})" is always evaluated to true because extra characters are around ${{ }} [if-cond]
+   |
+61 |         if: (${{ success() }} || ${{ failure() }}) # ensures this step runs even if previous steps fail
+   |             ^~~~

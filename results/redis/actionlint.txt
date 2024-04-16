@@ -1,0 +1,4 @@
+.github/workflows/daily.yml:1051:206: property "sentinel" is not defined in object type {cluster_test_args: string; skipjobs: string; skiptests: string; test_args: string; use_git_ref: string; use_repo: string} [expression]
+     |
+1051 |       run: ./utils/req-res-log-validator.py --verbose --fail-missing-reply-schemas ${{ (!contains(github.event.inputs.skiptests, 'redis') && !contains(github.event.inputs.skiptests, 'module') && !contains(github.event.inputs.sentinel, 'redis') && !contains(github.event.inputs.skiptests, 'cluster')) && github.event.inputs.test_args == '' && github.event.inputs.cluster_test_args == '' && '--fail-commands-not-all-hit' || '' }}
+     |                                                                                                                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~

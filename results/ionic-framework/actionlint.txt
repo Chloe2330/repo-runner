@@ -1,0 +1,364 @@
+.github/workflows/actions/build-angular-server/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Angular Server'
+  | ^~~~~
+.github/workflows/actions/build-angular-server/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Angular Server'
+  | ^~~~~
+.github/workflows/actions/build-angular-server/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Build Ionic Angular Server'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-angular-server/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/build-angular/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Angular'
+  | ^~~~~
+.github/workflows/actions/build-angular/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Angular'
+  | ^~~~~
+.github/workflows/actions/build-angular/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Build Ionic Angular'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-angular/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/build-core-stencil-prerelease/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Core with Stencil Prerelease'
+  | ^~~~~
+.github/workflows/actions/build-core-stencil-prerelease/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Core with Stencil Prerelease'
+  | ^~~~~
+.github/workflows/actions/build-core-stencil-prerelease/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Build Ionic Core with a Prerelease Build of Stencil'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-core-stencil-prerelease/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/build-core-stencil-prerelease/action.yml:8:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+8 | runs:
+  | ^~~~~
+.github/workflows/actions/build-core/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Core'
+  | ^~~~~
+.github/workflows/actions/build-core/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Core'
+  | ^~~~~
+.github/workflows/actions/build-core/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Build Ionic Core'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-core/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/build-core/action.yml:8:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+8 | runs:
+  | ^~~~~
+.github/workflows/actions/build-react-router/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic React Router'
+  | ^~~~~
+.github/workflows/actions/build-react-router/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic React Router'
+  | ^~~~~
+.github/workflows/actions/build-react-router/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Build Ionic React Router'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-react-router/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/build-react/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic React'
+  | ^~~~~
+.github/workflows/actions/build-react/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic React'
+  | ^~~~~
+.github/workflows/actions/build-react/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Build Ionic React'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-react/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/build-vue-router/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Vue Router'
+  | ^~~~~
+.github/workflows/actions/build-vue-router/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Vue Router'
+  | ^~~~~
+.github/workflows/actions/build-vue-router/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Builds Ionic Vue Router'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-vue-router/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/build-vue/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Vue'
+  | ^~~~~
+.github/workflows/actions/build-vue/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Build Ionic Vue'
+  | ^~~~~
+.github/workflows/actions/build-vue/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Build Ionic Vue'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/build-vue/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/download-archive/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Ionic Framework Archive Download'
+  | ^~~~~
+.github/workflows/actions/download-archive/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Ionic Framework Archive Download'
+  | ^~~~~
+.github/workflows/actions/download-archive/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Downloads and decompresses an archive from a previous job'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/download-archive/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/download-archive/action.yml:10:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+10 | runs:
+   | ^~~~~
+.github/workflows/actions/publish-npm/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Release'
+  | ^~~~~
+.github/workflows/actions/publish-npm/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Release'
+  | ^~~~~
+.github/workflows/actions/publish-npm/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Releases a package'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/publish-npm/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/publish-npm/action.yml:19:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+19 | runs:
+   | ^~~~~
+.github/workflows/actions/test-angular-e2e/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Angular E2E'
+  | ^~~~~
+.github/workflows/actions/test-angular-e2e/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Angular E2E'
+  | ^~~~~
+.github/workflows/actions/test-angular-e2e/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test Angular E2E'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-angular-e2e/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/test-angular-e2e/action.yml:6:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+6 | runs:
+  | ^~~~~
+.github/workflows/actions/test-core-clean-build/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Clean Build'
+  | ^~~~~
+.github/workflows/actions/test-core-clean-build/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Clean Build'
+  | ^~~~~
+.github/workflows/actions/test-core-clean-build/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test Core Clean Build'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-core-clean-build/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/test-core-lint/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Lint'
+  | ^~~~~
+.github/workflows/actions/test-core-lint/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Lint'
+  | ^~~~~
+.github/workflows/actions/test-core-lint/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test Core Lint'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-core-lint/action.yml:3:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | runs:
+  | ^~~~~
+.github/workflows/actions/test-core-screenshot/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Screenshot'
+  | ^~~~~
+.github/workflows/actions/test-core-screenshot/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Screenshot'
+  | ^~~~~
+.github/workflows/actions/test-core-screenshot/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test Core Screenshot'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-core-screenshot/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/test-core-screenshot/action.yml:13:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+13 | runs:
+   | ^~~~~
+.github/workflows/actions/test-core-spec/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Spec'
+  | ^~~~~
+.github/workflows/actions/test-core-spec/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Core Spec'
+  | ^~~~~
+.github/workflows/actions/test-core-spec/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test Core Spec'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-core-spec/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/test-core-spec/action.yml:6:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+6 | runs:
+  | ^~~~~
+.github/workflows/actions/test-react-e2e/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test React E2E'
+  | ^~~~~
+.github/workflows/actions/test-react-e2e/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test React E2E'
+  | ^~~~~
+.github/workflows/actions/test-react-e2e/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test React E2E'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-react-e2e/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/test-react-e2e/action.yml:6:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+6 | runs:
+  | ^~~~~
+.github/workflows/actions/test-react-router-e2e/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test React Router E2E'
+  | ^~~~~
+.github/workflows/actions/test-react-router-e2e/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test React Router E2E'
+  | ^~~~~
+.github/workflows/actions/test-react-router-e2e/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test React Router'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-react-router-e2e/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/test-react-router-e2e/action.yml:6:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+6 | runs:
+  | ^~~~~
+.github/workflows/actions/test-vue-e2e/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Vue E2E'
+  | ^~~~~
+.github/workflows/actions/test-vue-e2e/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Test Vue E2E'
+  | ^~~~~
+.github/workflows/actions/test-vue-e2e/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Test Vue E2E'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/test-vue-e2e/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/test-vue-e2e/action.yml:6:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+6 | runs:
+  | ^~~~~
+.github/workflows/actions/update-reference-screenshots/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Update Reference Screenshots'
+  | ^~~~~
+.github/workflows/actions/update-reference-screenshots/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Update Reference Screenshots'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/update-reference-screenshots/action.yml:7:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+7 | runs:
+  | ^~~~~
+.github/workflows/actions/upload-archive/action.yml:1:1: "on" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Ionic Framework Archive Upload'
+  | ^~~~~
+.github/workflows/actions/upload-archive/action.yml:1:1: "jobs" section is missing in workflow [syntax-check]
+  |
+1 | name: 'Ionic Framework Archive Upload'
+  | ^~~~~
+.github/workflows/actions/upload-archive/action.yml:2:1: unexpected key "description" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+2 | description: 'Compresses and uploads an archive to be reused across jobs'
+  | ^~~~~~~~~~~~
+.github/workflows/actions/upload-archive/action.yml:3:1: unexpected key "inputs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+  |
+3 | inputs:
+  | ^~~~~~~
+.github/workflows/actions/upload-archive/action.yml:10:1: unexpected key "runs" for "workflow" section. expected one of "concurrency", "defaults", "env", "jobs", "name", "on", "permissions", "run-name" [syntax-check]
+   |
+10 | runs:
+   | ^~~~~
+.github/workflows/release.yml:31:13: string should not be empty [syntax-check]
+   |
+31 |           - ''
+   |             ^~
